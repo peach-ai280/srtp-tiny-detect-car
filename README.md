@@ -2,7 +2,8 @@
 
 **算力受限下的可信感知：置信度分级 · 定向触发复核 · 帧间补位**
 
-![status](https://img.shields.io/badge/阶段-立项期(2026.10--2026.11)-yellow)
+[![docs-check](https://github.com/peach-ai280/srtp-tiny-detect-car/actions/workflows/docs-check.yml/badge.svg)](https://github.com/peach-ai280/srtp-tiny-detect-car/actions/workflows/docs-check.yml)
+![status](https://img.shields.io/badge/阶段-立项答辩准备-yellow)
 ![period](https://img.shields.io/badge/周期-2026.11%20~%202027.08-blue)
 ![platform](https://img.shields.io/badge/MCU-STM32H743%20%2F%20F103C8T6-informational)
 ![license](https://img.shields.io/badge/code-MIT-green)![docs](https://img.shields.io/badge/docs-CC%20BY--NC%204.0-lightgrey)
