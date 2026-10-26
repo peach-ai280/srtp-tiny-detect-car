@@ -165,7 +165,7 @@ python tools/quantize/quantize_int8.py --config tools/quantize/configs/yolo_lc_1
 }
 ```
 
-**主要参考工作**（编号与 `参考文献原文/` 的 01–13 一一对应，R 为开源项目）
+**直接依赖的几条**（编号沿用 [文献调研报告](docs/01_立项/04_文献调研报告.md) 的 01–13，R 为开源项目；完整 13 条见报告）
 
 [1] Lai, Sridhar, et al. *CMSIS-NN: Efficient Neural Network Kernels for Arm Cortex-M CPUs*. arXiv:1801.06601, 2018.
 [2] Banbury et al. *MLPerf Tiny Benchmark*. arXiv:2106.07597, 2021.
@@ -176,7 +176,7 @@ python tools/quantize/quantize_int8.py --config tools/quantize/configs/yolo_lc_1
 [R1] Flora233333. *Deploy SSD on STM32*（STM32H743 + OV5640，端到端 240 ms）. GitHub.
 [R2] STMicroelectronics. *stm32ai-modelzoo*（含 X-CUBE-AI 实测资源账）. GitHub.
 
-全部 13 篇文献的原文与清单在项目目录 `../../参考文献原文/`，分组与用途见 [文献调研报告](docs/01_立项/04_文献调研报告.md)。
+**原文 PDF 不放进仓库**——13 篇里多数是出版商版本，分发有版权问题。报告里每条都写了 arXiv 号或期刊卷期，自己检索得到；分组与「和我们的关系」，报告里逐条写了。
 
 ---
 
