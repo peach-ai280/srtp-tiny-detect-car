@@ -1,0 +1,58 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- 编译产物（固件）----
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.dmp
+
+# ---- 模型与数据（大文件不入库）----
+models/**/*.tflite
+models/**/*.onnx
+models/**/*.h5
+models/**/*.pb
+models/**/*.bin
+models/**/*.pt
+!models/SHA256SUMS
+data/**/images/
+data/**/labels/
+dataset/
+*.mp4
+*.avi
+*.mov
+
+# ---- 日志与结果原始文件 ----
+results/raw/*.log
+results/raw/*.csv
+!results/指标表_*.csv
+*.log
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- CubeMX / CubeIDE 本地配置 ----
+*.ioc.bak
+.mxproject
+.settings/
+Debug/
+Release/

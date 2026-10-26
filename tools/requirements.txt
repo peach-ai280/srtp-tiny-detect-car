@@ -1,0 +1,12 @@
+# PC 端工具链依赖（带版本号，避免版本漂移导致结果不可复现）
+# M2 时按实际用到的最小集合裁剪，现在只列预期依赖。
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==10.4.0
+matplotlib==3.9.2
+pandas==2.2.3
+scipy==1.14.1
+PyYAML==6.0.2
+tqdm==4.66.5
+onnx==1.16.2
+onnxruntime==1.19.2
