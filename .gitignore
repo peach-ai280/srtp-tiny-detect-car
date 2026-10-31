@@ -56,7 +56,3 @@ desktop.ini
 .settings/
 Debug/
 Release/
-
-# 内部材料，不入库（申请日前不得公开 / 含署名与保研口径）
-docs/07_成果/01_论文与专利计划.md
-docs/07_成果/02_论文最小可行路径.md
